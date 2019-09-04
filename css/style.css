@@ -6,7 +6,9 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /* background: url(../images/backgrounds/architecture.jpg) center no-repeat; */
+  /* background: lightslategray; */
+  background: linear-gradient(to bottom, #ccffff 0%, #66ccff 100%);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -52,7 +54,9 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.1em;
+  color: gray;
+  font-family:serif;
 }
 
 a {
